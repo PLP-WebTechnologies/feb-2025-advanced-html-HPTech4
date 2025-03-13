@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment2</title>
+</head>
+
+<body>
+    <header>
+        Form validation
+    </header>
+    <ol>
+        <li> Name </li>
+        <li> Email</li>
+        <li> City </li>
+    </ol>
+    <img src="https://images.pexels.com/photos/24877263/pexels-photo-24877263/free-photo-of-a-woman-sitting-in-front-of-a-fireplace.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load"
+        alt="Image of a guy in a winter" width="345px" height="245px">
+    <form>
+        <label for="name">Name :</label>
+        <input type="text" name="name" id="name" placeholder="enter your name" required>
+        <br><br>
+        <label for="email">Email :</label>
+        <input type="email" name="email" id="email" placeholder="enter your email" required>
+        <br><br>
+        <label for="password"> Password :</label>
+        <input type="password" name="paswd" id="paswd" placeholder="enter your password" required>
+        <br><br>
+        <label for="phone"> Phone Number :</label>
+        <input type="number" name="phone" id="phone">
+        <br><br>
+        <label for="gender"> Male</label><input type="radio" name="gender" id="male" value="Male">
+        <label for="gender"> Female</label><input type="radio" name="gender" id="female" value="Female">
+        <br><br>
+        <label for="dob"> Date Of birth</label>
+        <input type="date" name="dob" id="dob">
+        <br><br>
+        <label for="city"> City :</label>
+        <select name="city" id="city">
+            <option value="ibadan"> Ibadan</option>
+            <option value="lagos"> Lagos</option>
+            <option value="osun">Osun</option>
+            <option value="oyo"> Oyo</option>
+        </select><br><br>
+        <input type="button" value="Submit">
+    </form>
+</body>
+
+</html>
